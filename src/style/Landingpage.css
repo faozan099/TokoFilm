@@ -1,0 +1,49 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/background.jpg");
+    background-size: cover;
+}
+
+.intro{
+height: 250px;
+display: flex;
+justify-content: end;
+align-items: end;
+margin-top: 50px;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background: url("../assets/background2.jpg");
+    background-size: cover;
+
+}
+
+.movieWrapper{
+
+}
+
+.movieImages{
+    height: auto;
+    background-color: black;
+    margin: 8px;
+}
+
+.image{
+    height: 350px;
+}
+
+.anime{
+    height: auto;
+    background: url("../assets/background3.jpg");
+    background-size: cover;
+
+}
