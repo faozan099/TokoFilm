@@ -10,12 +10,10 @@ import "./style/Landingpage.css"
 function App() {
   return (
     <div>
-      {/* intro */}
       <div className="myBG">
         <NavigationBar/>
         <Intro/>
       </div>
-      {/* end */}
       <div className="trending">
         <Trending />
       </div>
