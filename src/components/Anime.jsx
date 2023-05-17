@@ -15,11 +15,11 @@ function Anime() {
         <br />
         <br />
         <Container className="text-center ">
-        <h2 className="text-white">Animations</h2>
+        <h2 className="text-white" id="Animations">Animations</h2>
         <br />
         </Container>
         <Row  className="justify-content-center align-items-center">
-          <Col md={3} className=" movieImages" id="Animations">
+          <Col md={3} className=" movieImages">
             <Card className="bg-dark text-white movieImages">
               <Image src={ChlidrenWhoChaseLostVoices} alt="Card image" className="image"/>
               <Card.Title className="text-center mt-3">Children  Who Chase Lost Voices</Card.Title>

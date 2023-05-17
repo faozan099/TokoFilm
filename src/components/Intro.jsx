@@ -1,4 +1,4 @@
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row,} from "react-bootstrap";
 
 const Intro = () => {
   return (
@@ -9,7 +9,6 @@ const Intro = () => {
             <div className="title">Rasakan Emosi dan Keajaiban di Setiap Layar,</div>
             <div className="title">Tanpa Biaya!</div>
             <div className="introButton mt-4 text-center">
-                <Button variant="dark">Lihat Sekarang</Button>
             </div>
           </Col>
         </Row>

@@ -14,8 +14,8 @@ function Trending() {
       <Container >
         <br />
         <br />
-        <Container className="text-center" id="Trending">
-        <h2 className="text-white">Tranding Movies</h2>
+        <Container className="text-center">
+        <h2 className="text-white" id="Trending">Tranding Movies</h2>
         <br />
         </Container>
         <Row  className="justify-content-center align-items-center">

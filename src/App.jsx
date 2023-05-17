@@ -3,13 +3,15 @@ import Anime from "./components/Anime";
 import Intro from "./components/Intro";
 import NavigationBar from "./components/NavigationBar";
 import Trending from "./components/Trending"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./style/Landingpage.css" 
-
+import FilmPremium from "./Page/FilmPremium";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
+          <div>
       <div className="myBG">
         <NavigationBar/>
         <Intro/>
@@ -19,8 +21,13 @@ function App() {
       </div>
       <div className="anime">
         <Anime/>
-      </div>
+      </div>        
     </div>
+
+    <Routes>
+      <Route path="/FilmPremium" element={<FilmPremium/>} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
